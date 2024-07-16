@@ -13,6 +13,7 @@ public class driving {
         name =scan1.nextLine();
         System.out.println("entered name is :- "+name);
         Scanner scan2 = new Scanner(System.in);
+        System.out.println("enter your age :-");
         int age=18;
         age = scan2.nextInt();
         if(age>=18){
